@@ -1,0 +1,14 @@
+# Versi yang terbukti berjalan di Python 3.14 (macOS, CPU).
+# TensorFlow untuk Python 3.14 saat ini baru tersedia sebagai release candidate.
+# Di Google Colab: TensorFlow sudah terpasang, cukup `pip install optuna`.
+tensorflow==2.22.0rc1
+optuna==5.1.0
+scikit-learn==1.9.1
+numpy==2.5.5
+pandas==3.1.1
+matplotlib==3.11.2
+seaborn==0.13.2
+pillow==13.0.0
+
+# Hanya untuk menjalankan tes (tests/)
+pytest==9.2.0
